@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Space Mono', monospace;
+}
+
+
+body {
+    color: #333333;
+    letter-spacing: -0.035em;
+}
+
+h2 {
+    font-family: 'Inconsolata', monospace;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: -0.08em;
+
+    margin: 40px 0 0 80px
+}
+
+main {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+
+    justify-content: center;
+    align-items: center;
+
+    gap: 120px;
+}
+
+.image {
+    width: 550px;
+    height: 550px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 95px;
+}
+
+span {
+    width: 380px;
+
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+
+    color: #4F4F4F;
+}
+
+button {
+    width: 216px;
+    height: 68px;
+
+    border: none;
+    background: #333333;
+
+    font-family: 'Space Mono';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.content {
+    width: 35%;
+    height: 60%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+footer {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+footer span {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+
+    text-align: center;
+
+    color: #BDBDBD;
+}
+
+@media (max-width: 376px) {
+
+    body {
+        color: #333333;
+        letter-spacing: -0.035em;
+
+        max-width: 375px;
+    }
+
+    h2 {
+        font-family: 'Inconsolata', monospace;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 25px;
+        text-transform: uppercase;
+        letter-spacing: -0.08em;
+    
+        margin: 20px 0 30px 24px
+    }
+    
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .image {
+        width: 300px;
+        height: 250px;
+        margin-bottom: -50px;
+    }
+    
+    h1 {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 71px;
+    }
+    
+    span {
+        width: 328px;
+    
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+    
+        color: #4F4F4F;
+    }
+    
+    button {
+        width: 216px;
+        height: 68px;
+    
+        border: none;
+        background: #333333;
+    
+        font-family: 'Space Mono';
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 21px;
+        
+        text-transform: uppercase;
+    
+        color: #FFFFFF;
+    }
+    
+    .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+        width: 345px;
+        height: 50%;
+    }
+}
